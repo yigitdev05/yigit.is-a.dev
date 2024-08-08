@@ -1,1 +1,0 @@
-# yigitdev05.github.io
