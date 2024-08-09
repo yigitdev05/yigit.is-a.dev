@@ -1,6 +1,9 @@
 # What is This?
 This is my website and portfolio
 
+Ask me a question from discord;
+discord username: yigit.dev
+
 # 💰 Donate
  <p align="center">
  <a href="https://www.buymeacoffee.com/yigitkabak">
