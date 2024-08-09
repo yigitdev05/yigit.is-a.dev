@@ -1,6 +1,13 @@
 # What is This?
 This is my website and portfolio
 
+# 💰 Donate
+ <p align="center">
+ <a href="https://www.buymeacoffee.com/yigitkabak">
+ <img src="https://img.buymeacoffee.com/button-api/?text=Buymeacoffee&emoji=&slug=codetilki&button_colour=FFDD00&font_colour=000000&font_family=Comic&outline_colour=000000&coffee_colour=ffffff">
+ </a>
+ </p>
+
 # LICANSE
 MIT License
 
@@ -23,10 +30,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-# 💰 Donate
- <p align="center">
- <a href="https://www.buymeacoffee.com/yigitkabak">
- <img src="https://img.buymeacoffee.com/button-api/?text=Buymeacoffee&emoji=&slug=codetilki&button_colour=FFDD00&font_colour=000000&font_family=Comic&outline_colour=000000&coffee_colour=ffffff">
- </a>
- </p>
