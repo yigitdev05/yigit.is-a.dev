@@ -87,9 +87,6 @@
           <a href="/about.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-white md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent" style="color: black;">About</a>
         </li>
         <li>
-          <a href="/api" class="block py-2 px-3 text-gray-900 rounded hover:bg-white md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent" style="color: black;">API</a>
-        </li>
-        <li>
             <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-white md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-white md:dark:hover:bg-transparent" style="color: black;">Contact <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 10 6">
     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
   </svg></button>
@@ -108,19 +105,7 @@
                 </ul>
             </div>
         </li>
-        <!-- Yeni Buton -->
-        <li>
-            <button id="dropdownServicesLink" data-dropdown-toggle="dropdownServices" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-white md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-white md:dark:hover:bg-transparent" style="color: black;">Services<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 10 6">
-    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-  </svg></button>
-            <!-- Dropdown menu -->
-            <div id="dropdownServices" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
-                <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
-                  <li>
-                    <a href="/services/devtools" class="block px-4 py-2 hover:bg-white dark:hover:bg-white dark:hover:text-white">Dev Tools</a>
-                  </li>
-                </ul>
-            </div>
+        </div>
         </li>
       </ul>
     </div>
@@ -130,14 +115,14 @@
   <div>
     <h1 style="olor: white; font-family: 'Varela Round', sans-serif;
   font-weight: 400;
-  font-style: normal; color: white; text-align: center; font-size: 30px;">Dev,</h1><h1 class="rgb" style="color: white; font-family: 'Varela Round', sans-serif;
+  font-style: normal; color: white; text-align: center; font-size: 30px;"></h1><h1 class="rgb" style="color: white; font-family: 'Varela Round', sans-serif;
   font-weight: 400;
-  font-style: normal; color: white; text-align: center; font-size: 30px;">Tools</h1>
+  font-style: normal; color: white; text-align: center; font-size: 30px;">System</h1>
   </div>
   <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
   <p style="color: white; font-family: 'Varela Round', sans-serif;
   font-weight: 400;
-  font-style: normal; color: white; text-align: center;">Hello, welcome to the developer page. You can see System information and User information on this page.</p>
+  font-style: normal; color: white; text-align: center;">Hello, welcome to the developer page. You can see System information on this page.</p>
 
 <div class="relative flex items-center justify-center w-full">
     <hr class="w-64 h-1 my-8 bg-gray-200 border-0 rounded dark:bg-gray-700">
@@ -154,31 +139,7 @@
         <div id="result"></div>
   </div>
   
-  <div class="relative flex items-center justify-center w-full">
-    <hr class="w-64 h-1 my-8 bg-gray-200 border-0 rounded dark:bg-gray-700">
-    <div class="absolute px-4 bg-slate-900 left-1/2 transform -translate-x-1/2 dark:bg-gray-900">
-        <h3 style="color: white; font-family: 'Varela Round', sans-serif;
-  font-weight: 400;
-  font-style: normal; color: white; text-align: center;">User Info</h3>
-    </div>
-  </div>
   
-    <ul>
-        <li style="color: white; font-family: 'Varela Round', sans-serif;
-  font-weight: 400;
-  font-style: normal; color: white; text-align: center;"><strong>Browser Name:</strong> <span id="browserName" style="color: white; font-family: 'Varela Round', sans-serif; font-weight: 400; font-style: normal; color: white; text-align: center;"></span></li>
-        <li style="color: white; font-family: 'Varela Round', sans-serif;
-  font-weight: 400;
-  font-style: normal; color: white; text-align: center;"><strong>Browser Version:</strong> <span id="browserVersion">Loading...</span></li>
-        <li style="color: white; font-family: 'Varela Round', sans-serif;
-  font-weight: 400;
-  font-style: normal; color: white; text-align: center;"><strong>Operating System:</strong> <span id="os">Loading...</span></li>
-        <li style="color: white; font-family: 'Varela Round', sans-serif;
-  font-weight: 400;
-  font-style: normal; color: white; text-align: center;"><strong>Platform:</strong> <span id="platform">Loading...</span></li>
-    </ul>
-</div>
-
 <script>
     function displayPerformance() {
         var resultDiv = document.getElementById('result');
