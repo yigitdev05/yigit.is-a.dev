@@ -1,0 +1,59 @@
+body {
+    background-image: url("../img/xp.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: 
+
+rgba(0, 0, 0, 0.5);
+    zoom: 100%;
+    margin: 0;
+    background-attachment: fixed; /* Arka planÄ±n sabit kalmasÄ±nÄ± saÄŸlar */
+}
+
+
+
+
+h1 {
+font-size: 12px;
+padding: 4px;
+
+
+  }
+[role="tabpanel"]{
+background: 
+
+#bdf7f1;
+background: -moz-linear-gradient(top,  
+
+#bdf7f1 0%, 
+
+#dbfbf8 53%, 
+
+#f6fefd 100%);
+background: -webkit-linear-gradient(top,  
+
+#bdf7f1 0%,
+
+#dbfbf8 53%,
+
+#f6fefd 100%);
+background: linear-gradient(to bottom,  
+
+#bdf7f1 0%,
+
+#dbfbf8 53%,
+
+#f6fefd 100%);
+}
+footer{
+  background: 
+
+#000000 url("../img/taskbar.png") repeat-x scroll 0 0;
+  height: 30px;
+  margin: 0px;
+}
+img.start{
+  position: relative;
+  bottom: 12px;
+}
