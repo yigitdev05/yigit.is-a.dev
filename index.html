@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<script>
+    // IP'den ülke kodu almak için bir IP Geolocation API'si kullanıyoruz
+    fetch('https://ipapi.co/json/')
+        .then(response => response.json())
+        .then(data => {
+            const countryCode = data.country_code;
+            
+            // Ülke koduna göre yönlendirme yapılıyor
+            if (countryCode === 'TR') {
+                window.location.href = "/tr";
+            } else {
+                window.location.href = "/en";
+            }
+        })
+        .catch(error => {
+            console.error('API isteğinde bir sorun oluştu:', error);
+        });
+</script>
+
+</body>
+</html>
